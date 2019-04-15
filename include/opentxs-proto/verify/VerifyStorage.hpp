@@ -64,6 +64,7 @@ static const VersionMap StorageNymAllowedStorageItemHash = {
     {6, {2, 6}},
     {7, {2, 7}},
     {8, {2, 8}},
+    {9, {2, 8}},
 };
 static const VersionMap StorageNymAllowedBip44Account{
     {4, {1, 1}},
@@ -71,10 +72,12 @@ static const VersionMap StorageNymAllowedBip44Account{
     {6, {1, 1}},
     {7, {1, 1}},
     {8, {1, 1}},
+    {9, {1, 2}},
 };
 static const VersionMap StorageNymAllowedStorageBip47AddressIndex{
     {7, {1, 1}},
     {8, {1, 1}},
+    {9, {1, 1}},
 };
 static const VersionMap StorageNymAllowedBlockchainAccountList{
     {4, {1, 1}},
@@ -82,9 +85,11 @@ static const VersionMap StorageNymAllowedBlockchainAccountList{
     {6, {1, 1}},
     {7, {1, 1}},
     {8, {1, 1}},
+    {9, {1, 1}},
 };
 static const VersionMap StorageNymAllowedStoragePurse{
     {8, {1, 1}},
+    {9, {1, 1}},
 };
 static const VersionMap StorageNymListAllowedStorageBip47NymAddressIndex = {
     {4, {1, 1}},

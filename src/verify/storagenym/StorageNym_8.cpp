@@ -39,7 +39,7 @@ bool CheckProto_8(const StorageNym& input, const bool silent)
 
 bool CheckProto_9(const StorageNym& input, const bool silent)
 {
-    UNDEFINED_VERSION(9)
+    return CheckProto_8(input, silent);
 }
 
 bool CheckProto_10(const StorageNym& input, const bool silent)

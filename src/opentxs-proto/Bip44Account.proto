@@ -25,4 +25,5 @@ message Bip44Account {
     repeated Bip44Address internaladdress = 8;
     repeated Bip44Address externaladdress = 9;
     repeated string outgoing = 10;
+    optional bytes lastposition = 11;
 }

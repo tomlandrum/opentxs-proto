@@ -14,9 +14,11 @@ namespace proto
 {
 static const VersionMap Bip44AccountAllowedBip44Address = {
     {1, {1, 1}},
+    {2, {1, 1}},
 };
 static const VersionMap Bip44AccountAllowedHDPath = {
     {1, {1, 1}},
+    {2, {1, 1}},
 };
 static const VersionMap Bip47ChainAllowedBip47Channel = {
     {1, {1, 1}},
